@@ -1,0 +1,63 @@
+@charset  "UTF-8";
+
+html, body {
+    background-image: linear-gradient(to right, white, yellow, red);
+    min-height: 100vh;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: 8vw;
+
+}
+
+section {
+    padding-left: 30px;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    line-height: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: x-large;
+    font-size: 5vw;
+    
+}
+
+section.normal > p {
+            
+}
+
+section.imagem {
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: 10px 5px 5px 5px rgba(0, 0, 0, 0.233);
+    border-radius: 10px;
+}
+
+section.imagem > p {
+    color: white;
+    font-weight: bolder;
+    
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: left;
+    background-size: cover;
+}
+
+footer {
+    padding: 20px;
+}
